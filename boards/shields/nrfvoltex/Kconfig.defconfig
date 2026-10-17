@@ -1,0 +1,6 @@
+if SHIELD_NRFVOLTEX
+
+config ZMK_KEYBOARD_NAME
+    default "nRFVoltex"
+
+endif # SHIELD_NRFVOLTEX
