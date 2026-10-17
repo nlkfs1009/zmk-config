@@ -12,9 +12,9 @@
 
         default_layer {
             bindings = <
-                &kp D &kp F &kp J &kp K
-                &kp C &kp M  &kp ENTER
+                &kp D &kp F &kp J &kp K &kp C &kp M &kp ENTER
             >;
+            sensor-bindings = <&inc_dec_kp W E &inc_dec_kp I O>;
         };
     };
 };
